@@ -12817,6 +12817,9 @@
           ],
           "requires_python": ">=3.9"
         }
+      },
+      "0.0.7": {
+        "be_great-0.0.7-py3-none-any.whl": "0.0.6@be_great-0.0.6-py3-none-any.whl"
       }
     }
   },
@@ -19224,6 +19227,30 @@
           ]
         },
         "bigdl_friesian_spark3-2.4.0b20230905-py3-none-manylinux1_x86_64.whl": "2.4.0b20230905@bigdl_friesian_spark3-2.4.0b20230905-py3-none-macosx_10_11_x86_64.whl"
+      },
+      "2.4.0b20230906": {
+        "bigdl_friesian_spark3-2.4.0b20230906-py3-none-macosx_10_11_x86_64.whl": {
+          "provides_extras": [
+            "train"
+          ],
+          "requires_dist": [
+            "bigdl-orca-spark3 (==2.4.0b20230906)",
+            "bigdl-orca-spark3[ray] ; extra == 'train'"
+          ]
+        },
+        "bigdl_friesian_spark3-2.4.0b20230906-py3-none-manylinux1_x86_64.whl": "2.4.0b20230906@bigdl_friesian_spark3-2.4.0b20230906-py3-none-macosx_10_11_x86_64.whl"
+      },
+      "2.4.0b20230907": {
+        "bigdl_friesian_spark3-2.4.0b20230907-py3-none-macosx_10_11_x86_64.whl": {
+          "provides_extras": [
+            "train"
+          ],
+          "requires_dist": [
+            "bigdl-orca-spark3 (==2.4.0b20230907)",
+            "bigdl-orca-spark3[ray] ; extra == 'train'"
+          ]
+        },
+        "bigdl_friesian_spark3-2.4.0b20230907-py3-none-manylinux1_x86_64.whl": "2.4.0b20230907@bigdl_friesian_spark3-2.4.0b20230907-py3-none-macosx_10_11_x86_64.whl"
       }
     }
   },
@@ -35556,6 +35583,9 @@
       },
       "1.0.0.dev20230831205745": {
         "echofish_aws_raw_to_zarr_lambda-1.0.0.dev20230831205745-py3-none-any.whl": "1.0.0.dev20230816202512@echofish_aws_raw_to_zarr_lambda-1.0.0.dev20230816202512-py3-none-any.whl"
+      },
+      "1.0.0.dev20230906215656": {
+        "echofish_aws_raw_to_zarr_lambda-1.0.0.dev20230906215656-py3-none-any.whl": "1.0.0.dev20230816202512@echofish_aws_raw_to_zarr_lambda-1.0.0.dev20230816202512-py3-none-any.whl"
       }
     }
   },
@@ -94607,6 +94637,27 @@
           "requires_python": ">=3.7"
         }
       },
+      "0.10.0": {
+        "ngrok_api-0.10.0-py3-none-any.whl": {
+          "provides_extras": [
+            "doc",
+            "tox"
+          ],
+          "requires_dist": [
+            "requests ==2.25.1",
+            "black ==21.5b1 ; extra == 'doc'",
+            "isort ==5.11.5 ; extra == 'doc'",
+            "click ==8.0.4 ; extra == 'doc'",
+            "furo ==2022.12.7 ; extra == 'doc'",
+            "sphinx ==6.1.3 ; extra == 'doc'",
+            "sphinx-autodoc-typehints ==1.12.0 ; extra == 'doc'",
+            "sphinx-readable-theme ==1.3.0 ; extra == 'doc'",
+            "Jinja2 ==3.0.3 ; extra == 'doc'",
+            "tox ==3.23.0 ; extra == 'tox'"
+          ],
+          "requires_python": ">=3.7"
+        }
+      },
       "0.2.0": {
         "ngrok_api-0.2.0-py3-none-any.whl": "0.1.3@ngrok_api-0.1.3-py3-none-any.whl"
       },
@@ -97969,6 +98020,12 @@
           ],
           "requires_python": ">=3.6"
         }
+      },
+      "14.0.1.4.0": {
+        "odoo14_addon_l10n_ro_account_anaf_sync-14.0.1.4.0-py3-none-any.whl": "14.0.1.3.1.dev1@odoo14_addon_l10n_ro_account_anaf_sync-14.0.1.3.1.dev1-py3-none-any.whl"
+      },
+      "14.0.1.4.1.dev1": {
+        "odoo14_addon_l10n_ro_account_anaf_sync-14.0.1.4.1.dev1-py3-none-any.whl": "14.0.1.3.1.dev1@odoo14_addon_l10n_ro_account_anaf_sync-14.0.1.3.1.dev1-py3-none-any.whl"
       }
     }
   },
@@ -110868,6 +110925,9 @@
       },
       "0.1.6": {
         "porkbun_ddns-0.1.6-py3-none-any.whl": "0.0.4@porkbun_ddns-0.0.4-py3-none-any.whl"
+      },
+      "0.2.0": {
+        "porkbun_ddns-0.2.0-py3-none-any.whl": "0.0.4@porkbun_ddns-0.0.4-py3-none-any.whl"
       }
     }
   },
@@ -111906,6 +111966,9 @@
         "py_code_timing-0.0.1-py3-none-any.whl": {
           "requires_python": ">=3.7"
         }
+      },
+      "0.0.2": {
+        "py_code_timing-0.0.2-py3-none-any.whl": "0.0.1@py_code_timing-0.0.1-py3-none-any.whl"
       }
     }
   },
@@ -112196,6 +112259,18 @@
           ],
           "requires_python": ">=3"
         }
+      },
+      "3.2": {
+        "py3_tts-3.2-py3-none-any.whl": "3.1.1@py3_tts-3.1.1-py3-none-any.whl"
+      },
+      "3.2a0": {
+        "py3_tts-3.2a0-py3-none-any.whl": "3.1.1@py3_tts-3.1.1-py3-none-any.whl"
+      },
+      "3.2b0": {
+        "py3_tts-3.2b0-py3-none-any.whl": "3.1.1@py3_tts-3.1.1-py3-none-any.whl"
+      },
+      "3.2rc0": {
+        "py3_tts-3.2rc0-py3-none-any.whl": "3.1.1@py3_tts-3.1.1-py3-none-any.whl"
       }
     }
   },
@@ -124993,6 +125068,46 @@
           ],
           "requires_python": ">=3.7"
         }
+      },
+      "0.3.0": {
+        "tomcli-0.3.0-py3-none-any.whl": {
+          "provides_extras": [
+            "all",
+            "codeqa",
+            "dev",
+            "formatters",
+            "test",
+            "tomli",
+            "tomlkit",
+            "typing"
+          ],
+          "requires_dist": [
+            "typer",
+            "tomlkit; extra == 'all'",
+            "typer[all]; extra == 'all'",
+            "reuse; extra == 'codeqa'",
+            "ruff; extra == 'codeqa'",
+            "nox; extra == 'dev'",
+            "tomcli[all]; extra == 'dev'",
+            "tomcli[codeqa]; extra == 'dev'",
+            "tomcli[formatters]; extra == 'dev'",
+            "tomcli[test]; extra == 'dev'",
+            "tomcli[typing]; extra == 'dev'",
+            "black; extra == 'formatters'",
+            "isort; extra == 'formatters'",
+            "pytest; extra == 'test'",
+            "tomli-w; extra == 'tomli'",
+            "tomli; python_version < '3.11' and extra == 'tomli'",
+            "tomlkit; extra == 'tomlkit'",
+            "mypy; extra == 'typing'",
+            "nox; extra == 'typing'",
+            "pytest; extra == 'typing'",
+            "tomcli[tomli]; extra == 'typing'",
+            "tomcli[tomlkit]; extra == 'typing'",
+            "typing-extensions; extra == 'typing'"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -128009,6 +128124,9 @@
       },
       "0.117.0": {
         "vanoma_api_utils-0.117.0-py3-none-any.whl": "0.101.0@vanoma_api_utils-0.101.0-py3-none-any.whl"
+      },
+      "0.118.0": {
+        "vanoma_api_utils-0.118.0-py3-none-any.whl": "0.101.0@vanoma_api_utils-0.101.0-py3-none-any.whl"
       },
       "0.12.0": {
         "vanoma_api_utils-0.12.0-py3-none-any.whl": "0.11.0@vanoma_api_utils-0.11.0-py3-none-any.whl"
